@@ -1,0 +1,20 @@
+.contain {
+    display:flex; /*используем флекс-боксы*/
+    flex-wrap: wrap; /*включаем переносы*/
+    min-width:100px;
+    max-width: 400px;
+    }
+    .item {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:5px;
+    display:flex; /*используем флекс-боксы*/
+    flex-basis: 25%; /*делаем ширину одного элемента 25%*/
+    justify-content: center; /*выравниваем содержимое по горизонтали*/
+    align-items: center; /*выравниваем содержимое по вертикали*/
+    height: 50px;
+    }
+    .isWinner{
+    font-size: 20px;
+    font-weight: bold;
+    }
